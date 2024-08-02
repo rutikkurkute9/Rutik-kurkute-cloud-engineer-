@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutik Kurkute - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .skills, .work-experience, .projects, .education, .certifications {
+            margin-bottom: 10px;
+        }
+        .skills ul, .work-experience ul, .projects ul, .education ul, .certifications ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li, .work-experience ul li, .projects ul li, .education ul li, .certifications ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rutik Kurkute</h1>
+            <p>Cloud and DevOps Engineer</p>
+            <p>+91 - 7888242880 | rutikkurkute9@gmail.com | <a href="#">LinkedIn</a> | <a href="#">Github</a></p>
+        </header>
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <p>Cloud and DevOps Engineer with a strong background in AWS, automation, and infrastructure as code. Proven track record of implementing CI/CD pipelines, optimizing deployment processes, and enhancing system reliability. Skilled in leveraging cutting-edge technologies to deliver scalable and secure solutions.</p>
+        </div>
+
+        <div class="section skills">
+            <div class="section-title">Skills</div>
+            <ul>
+                <li><strong>Cloud Platforms:</strong> AWS, Azure</li>
+                <li><strong>Programming Languages:</strong> Python, Java</li>
+                <li><strong>DevOps Tools:</strong> Git, Docker, Jenkins, Kubernetes, Terraform, Ansible</li>
+                <li><strong>Operating Systems:</strong> Linux</li>
+                <li><strong>Database:</strong> SQL</li>
+                <li><strong>Languages Known:</strong> English, Hindi, Marathi</li>
+            </ul>
+        </div>
+
+        <div class="section work-experience">
+            <div class="section-title">Work Experience</div>
+            <ul>
+                <li><strong>Full Stack Developer Intern, Craftech Solution Pvt Ltd (August 2024 - Current)</strong>
+                    <ul>
+                        <li>Developed and maintained web applications using modern full stack technologies.</li>
+                        <li>Designed and implemented new features.</li>
+                        <li>Optimized code and fixed bugs to improve application performance and user experience.</li>
+                    </ul>
+                </li>
+                <li><strong>Desktop Engineer, Wipro (June 2022 - November 2022)</strong>
+                    <ul>
+                        <li>Resolved hardware, software, and networking issues with a 95% success rate.</li>
+                        <li>Improved customer satisfaction scores by 15% through effective communication and support.</li>
+                    </ul>
+                </li>
+                <li><strong>Sales Executive, AARMS Sol. Pvt. Ltd (January 2023 - May 2024)</strong>
+                    <ul>
+                        <li>Increased client acquisition by 20% through networking and cold calling.</li>
+                        <li>Contributed to a 15% revenue growth by achieving sales targets.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section projects">
+            <div class="section-title">Academic Projects</div>
+            <ul>
+                <li><strong>Deployment of Fabrication using Orchestration, Containerization, and IAC Tools</strong>
+                    <ul>
+                        <li>Automated containerized application deployment using Git, Docker, Jenkins, Kubernetes, and Terraform.</li>
+                        <li>Built cloud infrastructure in AWS and implemented CI/CD pipelines with Jenkins.</li>
+                        <li>Achieved a 30% reduction in deployment time and a 25% increase in system reliability.</li>
+                    </ul>
+                </li>
+                <li><strong>Deploying Multi-Tier Website Using AWS EC2</strong>
+                    <ul>
+                        <li>Deployed a scalable PHP website with a secure RDS MySQL database.</li>
+                        <li>Implemented Auto Scaling for servers and ensured data security through encryption and managed failover.</li>
+                        <li>Reduced operational costs by 40% and improved user experience.</li>
+                    </ul>
+                </li>
+                <li><strong>Creating CI/CD Pipeline to Build and Test a Website</strong>
+                    <ul>
+                        <li>Developed a CI/CD pipeline integrating DevOps tools including Git, Docker, Jenkins, Puppet, and Selenium.</li>
+                        <li>Conducted automated testing and deployment, reducing manual intervention by 40% and improving deployment accuracy.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section education">
+            <div class="section-title">Education</div>
+            <ul>
+                <li><strong>PG - Cloud Computing and DevOps, Intellipaat (November 2023 - November 2024)</strong></li>
+                <li><strong>Bachelor - Computer Science, Savitribai Phule Pune University (January 2019 - January 2022)</strong> | CGPA: 7.6</li>
+            </ul>
+        </div>
+
+        <div class="section certifications">
+            <div class="section-title">Licenses & Certifications</div>
+            <ul>
+                <li><strong>AWS Solutions Architect (November 2022 - November 2023)</strong></li>
+                <li><strong>Python Developer (July 2021 - July 2022)</strong></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
